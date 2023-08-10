@@ -1,0 +1,37 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+    width: 100px;
+    border-radius: 50px;
+  }
+  .header{
+    padding: 8px;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: space-between;
+  }
+  .flier{
+    max-width: 400px; 
+  }
+  .about-us{
+    padding: 8px;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: space-between;
+  }
+  h1{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+  }
+  .text{
+    width: 400px;
+    color: white;
+  }
+  .tr-link{
+    flex: 1;
+    align-self: center;
+  }
